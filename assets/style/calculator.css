@@ -1,0 +1,26 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 330px;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #08667B;
+}
+
+.clear {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.plus {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+
+    
+
